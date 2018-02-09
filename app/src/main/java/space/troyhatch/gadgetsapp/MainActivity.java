@@ -1,6 +1,7 @@
 package space.troyhatch.gadgetsapp;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,8 +21,27 @@ public class MainActivity extends ListActivity {
 
         switch(position){
             case 0:
+                startActivity(new Intent(MainActivity.this, iphone.class));
 
                 break;
+
+            case 1:
+                startActivity(new Intent(MainActivity.this, pixel.class));
+                break;
+
+            case 2:
+                startActivity(new Intent(MainActivity.this, laptop.class));
+                break;
+
+            case 3:
+                startActivity(new Intent(MainActivity.this, zolo.class));
+                break;
+
+            case 4:
+                startActivity(new Intent(MainActivity.this, anker.class));
+                break;
+
+
         }
     }
 }
