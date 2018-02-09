@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GadgetsApp</string>
+    <string name="iphone">iPhone X. Apple\'s newest iPhone</string>
+    <string name="laptop">Microsoft Surface Laptop</string>
+    <string name="pixel_2xl">Google Pixel 2 XL</string>
+    <string name="zolo">Zolo Audio Liberty+</string>
+    <string name="anker">Anker Soundcore Bluetooth Speaker</string>
+</resources>
