@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tech"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:text="@+id/tech"
-        />
+        android:drawableLeft="@drawable/gadgets_small"/>
 </android.support.constraint.ConstraintLayout>

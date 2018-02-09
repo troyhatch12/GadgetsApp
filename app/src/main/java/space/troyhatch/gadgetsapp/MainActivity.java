@@ -14,7 +14,7 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String [] gadgets = {"iPhone 10", "Google Pixel 2 XL", "Microsoft Surface Laptop", "Zolo Liberty+", "Anker Soundcore"};
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,gadgets));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main,R.id.tech,gadgets));
     }
 
     protected void onListItemClick(ListView l, View v, int position, long id){
